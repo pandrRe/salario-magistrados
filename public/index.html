@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário dos Magistrados</title>
+</head>
+<style>
+body {
+    background-color: rgb(65, 51, 32);
+    color: honeydew;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+.counter {
+    font-size: 48pt;
+    margin-bottom: 15px;
+}
+
+.legend {
+    font-style: italic;
+}
+</style>
+<body>
+    <section class="main-section">
+        <div class="sub-section">
+            <h1 id="total-value" class="counter">0.00</h1>
+            <small class="legend">Remuneração dos magistrados do Conselho Nacional de Justiça (01/2018)</small>
+        </div>
+        <div class="sub-section">
+            <h1 id="above-thousand" class="counter">0</h1>
+            <small class="legend">Magistrados com diárias acima de R$ 1000,00 (01/2018)</small>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="bundle.js"></script>
+</html>

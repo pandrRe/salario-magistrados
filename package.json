@@ -1,0 +1,28 @@
+{
+  "name": "salario-magistrado",
+  "version": "1.0.0",
+  "description": "Exibe dados quanto aos salários dos magistrados no Brasil.",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "concurrently --kill-others  \"rollup --config --watch\" \"http-server -c-1\""
+  },
+  "keywords": [
+    "salario",
+    "magistrados",
+    "brasil"
+  ],
+  "author": "pandrre",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "http-server": "^0.12.3",
+    "rollup": "^2.52.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "papaparse": "^5.3.1"
+  }
+}
